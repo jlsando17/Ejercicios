@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+    background-color:black;
+}
+
+
+
+.btn-neon{
+    
+    height: 10vh;
+    width: 30vh;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid red;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    background: blue;
+   
+}
+.btn-neon::before{
+    content:"PASAR POR ENCIMA";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+    position: absolute;
+    font-size: 20PX;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+
+}
+.btn-neon::after{
+    content:"!HECHO!!";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 40PX;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    opacity: 0;
+
+}
+.btn-neon:hover::before{
+opacity: 0;
+}
+
+.btn-neon:hover::after{
+    opacity: 1;
+    height: 8vh;
+    width: 28vh;
+    position: absolute;
+   background:rgb(6, 102, 22);
+    box-shadow: 0 0 10px greenyellow,
+      0 0 40px greenyellow; 
+      
+    }
+

@@ -1,0 +1,31 @@
+h1{
+    color:blue;
+}
+
+/*Comentario*/
+
+/*Numeral para indicar que se hara referencia a un atributo especifico*/
+#first{
+  color: green;
+}
+#second{
+ color: blueviolet;
+ font-size: 30px;
+}
+/*con el punto se llama a la class*/
+.encabezado{
+    color: aqua;
+    font-size: 50px;
+}
+
+/*EL asterisco y punto es el selector universal, como crear una clase*/
+*.warning {
+    color: red;
+}
+
+/*Varias clases aplicadas a los elementos*/
+.autor, .fecha, .obra{
+    text-decoration: underline;
+    color: darkgoldenrod;
+}
+

@@ -1,0 +1,48 @@
+/*con : entramos a pseudoClases, con :: entramos a pseudoElemets*/
+
+.contenedor{
+width: 300px;
+height: 110px;
+background-color: aquamarine;
+}
+
+span.frase{
+    font-style: italic;
+}
+/* poner antes y despues de la frase PSEUDOELEMENTO*/
+span.frase::before{
+    content: "<<";
+    font-size: xx-small;
+}
+span.frase::after{
+    content: ">>";
+    font-size: xx-small;
+}
+
+.libro {
+  background-color: green;
+  padding: 12px;
+  font-family:Arial, Helvetica, sans-serif ;  
+}
+
+.libro p::first-letter{
+    font-size: xx-large;
+    color: brown;
+}
+
+.libro p::first-line{
+    
+    color:brown;
+}
+
+.libro p::selection{
+    background-color: violet;
+    color: snow;
+}
+
+.listado-desordenado ul li::marker{
+    color: red;
+}
+.listado-ordenado ol li::marker{
+    color:blue;
+} 

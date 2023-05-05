@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ejercicio 02 - Formularios en HTML</title>
+
+    </head>
+    <body>
+        <form action="Resultado.html" method="GET">
+            <div>
+                <div>
+                    <label for="nomUsu">Nombre</label>
+                    <input name="nombreUsuario"  id="nomUsu" required>
+                </div>
+                <br>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="date"  name="edad"  id="edad" required>
+                </div><br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email"  id="email" required>
+                </div>
+                <br>
+                <div>
+                    <label>Comentarios</label><br>
+                    <textarea name="comentarios" id="cometarios"></textarea>
+                </div>
+                <div>
+                    <label for="password">Contraseña</label>
+                    <input type="password" name="password"  id="password" required>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Reset</button>
+                </div>
+                
+            </div>
+        </form>
+    </body>
+</html>

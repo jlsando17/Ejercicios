@@ -1,0 +1,7 @@
+inspeccionar
+
+prompt("cual es tu edad")
+
+Guardar en una variable
+const edad=prompt("edad")
+edad

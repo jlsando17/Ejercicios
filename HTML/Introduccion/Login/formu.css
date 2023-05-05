@@ -1,0 +1,193 @@
+/*importacion de fuente de  https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color:#161717;
+}
+h3{
+    color: white;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    align-items: center;
+    justify-content: center;
+    width: 450px-; 
+    gap:20px;
+}
+/*extencion para saber el color en google*/
+.google-btn{
+    background-color: rgb(26,115,232);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+.twiter-btn{
+    background-color: #161717;
+    color: white;
+    border:rgb(26,115,232);
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.buttons{
+   align-self:center ;
+   display: flex;
+   gap:20px; 
+}
+
+.google-btn:hover{
+    opacity: 0.6;
+}
+.twiter-btn:hover{
+    opacity: 0.6;
+}
+.google-btn picture{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+}
+.twiter-btn picture{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+/*acomodar logo de google*/
+.google-btn picture img{
+    width: 75%;
+}
+.google-btn picture img{
+    width: 75%;
+}
+
+
+.google-btn span{
+    color:white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+
+
+
+
+.separator{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+.separator hr{
+    flex-grow: 1;
+    border: top 1px solid black ;
+}
+.separator span{
+    color: #8b8b8b;
+}
+
+
+.sectionInputs{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch ;
+    gap: 20px;
+}
+
+label{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label span{
+    font-weight: 700;
+}
+
+.sectionInputs label input{
+    width: 80%;
+    background-color:  #212121;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+}
+
+label input{
+    width: 90%;
+    background-color: #f3f3f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s,border 0.2s, box-shadow 0.2s;
+}
+
+label input:hover{
+    background-color:#454045;
+    border:solid 1px #f3f3f4;
+    box-shadow: 0 0 4px purple;
+}
+
+label input:focus{
+    background-color: #887f88;
+    border:solid 1px #f3f3f4;
+    box-shadow: 0 0 4px purple;
+}
+
+.checboxLabel {
+    display: flex;
+    flex-direction: row;
+}
+
+.checboxLabel input[type="checkbox"]{
+    width: 20px;
+}
+
+.checboxLabel span{
+    font-weight:400 ;
+}
+
+.submit-btn{
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    font-size: 16;
+
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    opacity: 0.75;
+}

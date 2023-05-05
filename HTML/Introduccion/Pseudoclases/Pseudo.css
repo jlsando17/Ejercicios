@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hover {
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+}
+.hover:hover{
+    background-color: aquamarine;
+}
+
+
+
+.listado {
+    padding: 15px;
+    background-color:brown
+}
+
+/*Debe ir en este orden*/
+/*first-child es el primer item*/
+/*w3school. pseudoclases*/
+.listado p:first-child{
+    color:yellow
+}
+/*link sin visitar*/
+a:link{
+  color: purple;  
+}
+/*link visitado*/
+a:visited{
+    color: blue;
+}
+/*cambia el color cuando se pasa el mouse por encima*/
+a:hover{
+    color: yellow;
+}
+/*cambia de color mientra se hace click*/
+a:active{
+    color:black;
+}

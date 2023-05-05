@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-direction:row;
+    
+    
+}
+
+.img-flex{
+   width: 300px;
+   display: flex;
+   flex-wrap: wrap;
+
+    
+}
+
+.img-flex:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}

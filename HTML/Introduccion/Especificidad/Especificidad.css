@@ -1,0 +1,26 @@
+/*orden jerarquico de estilos,
+1ro, el orden en que se escriben
+2do, entre mas id especificos
+mayor el nivel de especificidad*/
+/*(1,0,0)*/
+/*(0,1,0)*/
+/*(0,0,1)*/
+/*(0,0,0)*/
+
+/*3ro,Si se escriben los estilos en el html, tiene mas prioridad*/
+
+/*4to,evitar etiqueta important es la de mayor nivel*/
+
+
+h1#h1-id.h1-clase {
+    color: blue;
+}
+
+h1{
+    color: yellowgreen !important;
+}
+
+
+p{
+    color: rebeccapurple;
+}

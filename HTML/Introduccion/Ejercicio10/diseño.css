@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    background-color:aquamarine;
+}
+h2{
+    background-color:rgb(8, 99, 69);
+}
+.contenedor{
+    background-color: yellow;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.item1{ 
+    background-color: blueviolet;
+    display: flex;
+ }
+.item2{
+    background-color:orangered;
+    display: flex;
+    flex-grow: 3;
+ }
+
+
+ @media (max-width:640px){
+   .contenedor{
+    flex-direction: column-reverse;
+   }
+}
+@media (min-width:640px){
+    .item1{
+     flex-direction:initial;
+    }   
+   }
+ 

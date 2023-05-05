@@ -1,0 +1,112 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Bajar el boton*/
+    min-height: 100vh;
+}
+
+.btn-tooltip{
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: black;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.btn-tooltip:hover{
+    background-color: yellow;
+}
+
+.tooltip{
+    /*el elemento padre btn-tooltip lleva posicion realtiva y el hijo absoluta*/
+position: absolute;
+/*visibilidad hidden para que no se vea*/
+visibility:hidden;
+top: -100px;
+color: gray;
+background-color: blue;
+padding: 5px 10px;
+border-radius: 5px;
+}
+/*cuando se pose encima cambia de color y aprece el texto*/
+.btn-tooltip:hover{
+    background-color: blueviolet;
+}
+.btn-tooltip:hover .tooltip{
+    visibility: visible;
+}
+
+/*otro boton*/
+/*otro boton*/
+/*otro boton*/
+/*otro boton*/
+/*otro boton*/
+/*otro boton*/
+/*otro boton*/
+
+.btn-tooltip2{
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: black;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.btn-tooltip2:hover{
+    background-color: yellow;
+}
+
+.tooltip2{
+    /*el elemento padre btn-tooltip lleva posicion realtiva y el hijo absoluta*/
+position: absolute;
+/*visibilidad opacity para que no se vea*/
+opacity: 0;
+top: -35px;
+left:-80% ;
+transform: translate(25%);
+color: gray;
+background-color: blue;
+padding: 5px 10px;
+border-radius: 5px;
+transition: opacity 150ms;
+}
+/*cuando se pose encima cambia de color y aprece el texto*/
+.btn-tooltip2:hover{
+    background-color: blueviolet;
+}
+.btn-tooltip2:hover .tooltip2{
+    opacity: 1;
+}
+/*triangulo que explica en mensaje*/
+.tooltip2::before{
+    content: "";
+    border: solid 10px transparent ;
+    border-top-color:cyan ;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+   
+
+
+
+.triangulos{
+    border: solid 10px black;
+    border-top-color:cyan ;
+    border-left-color:yellow ;
+    border-right-color:yellow ;   
+}

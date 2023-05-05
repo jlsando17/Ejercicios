@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    /*flex-direccion cambia el orden y el eje izquierda derecha arriba abajo
+    por lo tanto se cambian los ejes y el align-items  www.flexbox/playground*/
+    flex-direction: column;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+    /*display flex ordena los div que estand dentro del div de flex*/
+    /*justify content posiciona los div, center, space*/
+    
+    /*redimensionamiento de acuerdo a la pantalla*/
+    
+    /*de acuerdo al contenido se acomoda y lo centra*/
+    
+ 
+
+}
+/*no le especificamos la altura para que la clase flex lo acomode segun el contenido*/
+.contenido1{
+    background-color:white ;
+    
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.contenido2{
+    background-color:white ;
+    
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido3{
+    background-color:white ;
+   
+    width: 100px;
+    border: 1px solid blue;
+}

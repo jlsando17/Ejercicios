@@ -1,0 +1,23 @@
+
+/*utilizar variables directamente los dos puntos*/
+
+:root{
+  --color-principal:blue
+  ;
+  --ancho-principla:250px;
+
+}
+
+.titulo{
+    color: var(--color-principal);
+}
+
+.footer{
+    color: var(--color-principal);
+}
+
+.container{
+    background-color: rgb(204, 143, 62);
+    padding: 1rem;
+    max-width: var(--ancho-principla);
+}

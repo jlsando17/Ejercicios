@@ -1,0 +1,48 @@
+body{
+    padding: 20px;
+    margin: 0;
+}
+
+.escenario{
+    margin: 10px;
+    border: 1px solid green;
+    padding: 10px;
+    width: 100%;
+}
+
+.escenario1{
+    width: 100%;
+    font-size: 32px;
+}
+.escenario2{
+    width: 50%;
+    font-size: 32px;
+}
+
+.px{
+    background-color: red;
+    width: 200px;
+}
+
+.porcentaje{
+    background-color: blue;
+    width: 50%;
+}
+
+.view{
+    background-color: aqua;
+    /*vw es el tamaño de la pantalla*/
+    width: 50vw;
+}
+
+/*Em y REM*/
+/*Em y REM*/
+/*Em y REM*/
+/*Em y REM*/
+
+/*para que se corriga la agrego la rem */
+li{
+    
+    font-size: 1.5em;
+}
+

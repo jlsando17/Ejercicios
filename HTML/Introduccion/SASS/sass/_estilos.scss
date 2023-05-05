@@ -1,0 +1,32 @@
+@use "mixin";
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(118, 56, 218);
+    min-width:100vh;
+}
+h1{
+    /*dentro del parentesis puedo nañadir color*/
+ @include mixin.formato-texto();
+}
+
+.listado{
+    width: 10rem;
+    background-color: rgb(20, 212, 36);
+    padding: 0.5rem;
+    ul{
+        margin: 0 0.5rem;
+        li{
+            list-style: none;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}

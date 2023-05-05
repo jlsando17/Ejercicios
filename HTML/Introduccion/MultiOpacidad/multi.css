@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-principal{
+    width: 100vw;
+    /*el grado de opacidad varia entre cero y uno*/
+    opacity: 0.5;
+}
+
+/*cuando para el cursor del mouse se quita la opacidad*/
+.imagen-principal:hover{
+    opacity: 1;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.img-galeria{
+   width: 150px;
+}
+
+.img-galeria:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}

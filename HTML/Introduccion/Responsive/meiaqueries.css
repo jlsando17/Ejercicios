@@ -1,0 +1,26 @@
+h1{
+    color: red;
+    font-size: 4rem;
+}
+p{
+    color: blue;
+    font-size: 2rem;
+}
+
+/*media all accede a todos los dispositivos si no se coloca se toma por defecto*/
+/*cuando se supern los 576 el titulo sera azul*/
+/*tambien se puede usar el height*/
+@media (min-width:576px){
+    h1{
+        color: aqua;
+    }
+}
+/*orientacion de la pantalla/ orientATION*/
+/*ANIDAR CONDICIONES @media(orientation:landscape) AND (min-height:852px)*/
+@media(orientation:landscape){
+    h1{
+        color: yellow;
+    }
+
+}
+

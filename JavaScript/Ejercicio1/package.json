@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio1",
+  "version": "1.0.0",
+  "description": "startJavaScript",
+  "main": "Ejercicio1.js",
+  "scripts": {
+    "start": "node Ejercicio1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
